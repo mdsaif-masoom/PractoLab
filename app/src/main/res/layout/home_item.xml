@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:orientation="vertical"
+
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="12dp"
+
+        android:id="@+id/homecard"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+
+        app:cardBackgroundColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:foregroundTint="@color/black"
+            android:backgroundTintMode="add"
+            android:backgroundTint="@color/black"
+            android:background="@color/white"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="70dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_height="70dp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/LabImage"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/prof"
+                        >
+
+                    </ImageView>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="shop name"
+                        android:layout_marginHorizontal="20dp"
+
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="normal"
+                        android:textAlignment="center"
+                        android:id="@+id/Labname"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:fontFamily="@font/cambo">
+
+                    </TextView>
+                    <RatingBar
+                        android:id="@+id/rating_bar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numStars="5"
+                        android:scaleX="0.6"
+
+                        android:scaleY="0.6"
+                        android:rating   = "3.8"
+
+                        android:progressTint="#FFC107"
+                        android:stepSize="0.5"></RatingBar>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

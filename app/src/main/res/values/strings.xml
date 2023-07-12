@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Patholab</string>
+    <string name="get_started">Get Started</string>
+    <string name="find">Find the best PathLab near You 🩺</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="profile_extra">My business is not prognosis,but diagnosis.I am not engaged in therapeutics but in pathology.</string>
+</resources>

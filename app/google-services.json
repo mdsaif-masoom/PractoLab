@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "277483718008",
+    "firebase_url": "https://pathlabbackend-50c75-default-rtdb.firebaseio.com",
+    "project_id": "pathlabbackend-50c75",
+    "storage_bucket": "pathlabbackend-50c75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277483718008:android:0bf886a61e462c416db48d",
+        "android_client_info": {
+          "package_name": "com.areeb.adminpatholab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277483718008-3ph5vojqd6bvvio032jo810i5nj098g4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.areeb.adminpatholab",
+            "certificate_hash": "f0cef26733a7f900665b07bb72764621c5e2cd51"
+          }
+        },
+        {
+          "client_id": "277483718008-o0qgjdvul9fa3uv8qad50e3d5ar6kbv7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCobCUWYJN55vwnvdzKvlrAtR_pwbmupxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277483718008-o0qgjdvul9fa3uv8qad50e3d5ar6kbv7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277483718008:android:742e5e3888b6e2966db48d",
+        "android_client_info": {
+          "package_name": "com.areeb.patholab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277483718008-j39d4g19ol0brng302rtn48mtft2fcui.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.areeb.patholab",
+            "certificate_hash": "f0cef26733a7f900665b07bb72764621c5e2cd51"
+          }
+        },
+        {
+          "client_id": "277483718008-o0qgjdvul9fa3uv8qad50e3d5ar6kbv7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCobCUWYJN55vwnvdzKvlrAtR_pwbmupxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277483718008-o0qgjdvul9fa3uv8qad50e3d5ar6kbv7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

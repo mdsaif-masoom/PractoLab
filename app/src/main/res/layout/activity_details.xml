@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activites.DetailsActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="126dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/black"
+            app:cardCornerRadius="12dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:scaleType="centerCrop"
+                android:src="@drawable/detaildoc"></ImageView>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:id="@+id/Labname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Dr Sample"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/testId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Dr Sample"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:visibility="gone"
+                android:textStyle="bold"
+                ></TextView>
+
+            <TextView
+                android:id="@+id/Phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:text="0000000"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/labemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:text="samplemail"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:text="500+ pateint count"
+                android:textColor="#4CAF50"
+                android:textSize="16dp"
+                android:textStyle="bold"></TextView>
+
+<!--            <RatingBar-->
+<!--                android:id="@+id/rating_bar"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:numStars="5"-->
+<!--                android:progressTint="#FFC107"-->
+<!--                android:rating="3.8"-->
+<!--                android:scaleX="0.6"-->
+
+<!--                android:scaleY="0.6"-->
+<!--                android:stepSize="0.5"></RatingBar>-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cash On Delievry"
+                    android:id="@+id/cashOn"
+                    android:textStyle="normal"
+                    android:textColor="#E91E63"
+                    android:textSize="15dp"
+                    ></CheckBox>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:src="@drawable/cod"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"></ImageView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Biography"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Dr.Sample is an indemention  is best for  all type pf check u need and all the results are good."
+            android:textAlignment="center"
+            android:textColor="#938282"
+            android:textSize="15dp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Location"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select the treatment and finalize the cost"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_marginLeft="10dp"></TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:id="@+id/TreatmentRecycler"
+        android:layout_marginLeft="10dp"
+
+        android:layout_height="200dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Total - $20"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textAlignment="textEnd"
+        android:layout_marginRight="20dp"></TextView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/appointment_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        app:cardBackgroundColor="#0857DE"
+        app:cardCornerRadius="12dp">
+
+
+        <LinearLayout
+            android:id="@+id/makeAppointment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="Make an Appointment"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+
+                android:textSize="16dp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

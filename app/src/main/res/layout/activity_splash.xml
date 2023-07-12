@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Activites.Splash">
+
+    <ImageView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/splashImage"
+        android:layout_width="match_parent"
+        android:layout_marginTop="170dp"
+        android:src="@drawable/xx"
+        android:layout_height="260dp">
+
+    </ImageView>
+<com.agrawalsuneet.dotsloader.loaders.ZeeLoader
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toBottomOf="@+id/splashImage"
+    app:layout_constraintLeft_toLeftOf="parent"
+    android:id="@+id/nprogress"
+    app:zee_distanceMultiplier="4"
+    app:zee_firstDotsColor="#E91E63"
+    android:visibility="visible"
+    app:zee_secondDotsColor="#03A9F4"
+    app:zee_dotsRadius="14dp"
+    app:zee_animDuration="300"
+    app:layout_constraintRight_toRightOf="parent"
+   ></com.agrawalsuneet.dotsloader.loaders.ZeeLoader>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:fontFamily="@font/almendra"
+
+        android:text="PractoLab"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_goneMarginTop="20dp"></TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
